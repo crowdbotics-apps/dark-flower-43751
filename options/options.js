@@ -1,10 +1,11 @@
 export const globalOptions = {
-  name: "dark-flower-43751",
-  url: "https://dark-flower-43751.botics.co",
-  api: "https://dark-flower-43751.botics.co/api/v1",
-  screenOptions: {
-    headerShown: false
-  }
+  "name": "dark-flower-43751",
+  "url": "https://dark-flower-43751.botics.co",
+  "api": "https://dark-flower-43751.botics.co/api/v1",
+  "screenOptions": {
+    "headerShown": false
+  },
+  "initialRoute": "appointmentListing"
 };
 export const modulesOptions = {
   "@modules/app-menu": {

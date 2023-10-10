@@ -83,6 +83,9 @@ const styles = StyleSheet.create({
   },
   listContainer: {
     margin: 0
+  },
+  Dyzfapdd: {
+    fontSize: 15
   }
 });
 export default AppointmentListScreen;
@@ -95,7 +98,7 @@ const Appointment = ({
         <Image source={item.image} style={appointmentStyles.img} />
       </View>
       <View style={appointmentStyles.desContainer}>
-        <Text>{item.name}</Text>
+        <Text style={styles.Dyzfapdd}>{item.name}</Text>
         <View style={appointmentStyles.timings}>
           <Text style={appointmentStyles.timingText}>{item.date}</Text>
           <Text style={appointmentStyles.timingText}>,</Text>
