@@ -138,6 +138,7 @@ const appointmentStyles = StyleSheet.create({
     flexDirection: "row"
   },
   timingText: {
-    color: "grey"
+    color: "grey",
+    fontSize: 16
   }
 });
