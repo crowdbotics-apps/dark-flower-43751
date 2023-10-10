@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     margin: 0
   },
   Dyzfapdd: {
-    fontSize: 15
+    fontSize: 14
   }
 });
 export default AppointmentListScreen;
