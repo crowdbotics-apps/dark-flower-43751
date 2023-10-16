@@ -139,6 +139,6 @@ const appointmentStyles = StyleSheet.create({
   },
   timingText: {
     color: "grey",
-    fontSize: 16
+    fontSize: 18
   }
 });
